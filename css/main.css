@@ -11,7 +11,7 @@
 }
 
 .body {
-    background: linear-gradient(to bottom, #000B7C 50%, #60147D 100%);
+    background: linear-gradient(#000B7C, #60147D);
 }
 
 .text1 {
@@ -32,4 +32,8 @@ h1 {
 
 h2 {
     color: white;
+}
+
+.logofooter {
+    width: 10%;
 }
