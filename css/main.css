@@ -1,13 +1,27 @@
 .videoimg {
-    width: 50%;
+    width: 90%;
+    border-radius: 10%;
+    margin-left: 1.25rem;
+    height: 15rem;
+    object-fit: cover;
+    margin-bottom: 1.5rem;
 }
 
 .photographyimg {
-    width: 50%;
+    width: 90%;
+    border-radius: 10%;
+    margin-left: 1.25rem;
+    height: 15rem;
+    object-fit: cover;
 }
 
 .animationimg {
-    width: 25%;
+    width: 90%;
+    border-radius: 10%;
+    margin-left: 1.25rem;
+    height: 15rem;
+    object-fit: cover;
+    margin-bottom: 1.5rem;
 }
 
 .body {
@@ -31,6 +45,7 @@ h1 {
     font-family: 'Urbanist', sans-serif;
     font-style: normal;
     font-weight: 700;
+    font-size: 2.75rem;
 }
 
 h2 {
@@ -38,7 +53,8 @@ h2 {
 }
 
 .logofooter {
-    width: 5%;
+    width: 15%;
+    margin-left: 12rem;
 }
 
 p {
@@ -60,4 +76,57 @@ p {
 .footer {
     background-image: linear-gradient(to right, #3A00FF, #B400FF);
     border-top: 6px solid white;
+    padding-top: 1.5rem;
+    padding-bottom: 0.50rem;
+}
+
+.copyrighttext{
+    font-size: 15px;
+    margin-left: 8rem;
+    margin-top: 0.5rem;
+}
+
+.learn-button1 {
+    color: #000B7C;
+    font-family: 'Urbanist', sans-serif;
+    font-size: 1.5rem;
+    border-radius: 30%;
+    border: none;
+    margin-bottom: 2.5rem;
+}
+
+.learn-button2 {
+    color: #000B7C;
+    font-family: 'Urbanist', sans-serif;
+    font-size: 1.5rem;
+    border-radius: 25%;
+    border: none;
+    margin-bottom: 2.5rem;
+    margin-top: 1.5rem;
+}
+
+.learn-button3 {
+    color: #000B7C;
+    font-family: 'Urbanist', sans-serif;
+    font-size: 1.5rem;
+    border-radius: 25%;
+    border: none;
+    margin-bottom: 8rem;
+    margin-top: 1.5rem;
+}
+
+.text2 {
+    text-align: center;
+    font-size: 0.75;
+}
+
+.text3 {
+    text-align: center;
+    font-size: 0.75;
+}
+
+.text4 {
+    text-align: center;
+    font-size: 0.75;
+    color: white;
 }
