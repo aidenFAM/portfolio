@@ -130,3 +130,8 @@ p {
     font-size: 0.75;
     color: white;
 }
+
+.fa-search{
+  color: white;
+  cursor: pointer;
+}
