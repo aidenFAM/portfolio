@@ -1,27 +1,35 @@
 .videoimg {
     width: 90%;
     border-radius: 10%;
-    margin-left: 1.25rem;
     height: 15rem;
     object-fit: cover;
     margin-bottom: 1.5rem;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .photographyimg {
     width: 90%;
     border-radius: 10%;
-    margin-left: 1.25rem;
     height: 15rem;
     object-fit: cover;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2rem;
 }
 
 .animationimg {
     width: 90%;
     border-radius: 10%;
-    margin-left: 1.25rem;
     height: 15rem;
     object-fit: cover;
     margin-bottom: 1.5rem;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2rem;
 }
 
 .body {
@@ -54,7 +62,9 @@ h2 {
 
 .logofooter {
     width: 15%;
-    margin-left: 12rem;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 p {
@@ -65,7 +75,9 @@ p {
 
 .ACheaderlogo {
     width: 25%;
-    margin-left: 11rem;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .navbar {
@@ -78,11 +90,12 @@ p {
     border-top: 6px solid white;
     padding-top: 1.5rem;
     padding-bottom: 0.50rem;
+    margin-top: 6rem;
+
 }
 
 .copyrighttext{
     font-size: 15px;
-    margin-left: 8rem;
     margin-top: 0.5rem;
 }
 
@@ -93,6 +106,10 @@ p {
     border-radius: 30%;
     border: none;
     margin-bottom: 2.5rem;
+    font-weight: bold;
+    text-align: center;
+    margin: auto;
+    display: flex;
 }
 
 .learn-button2 {
@@ -103,6 +120,11 @@ p {
     border: none;
     margin-bottom: 2.5rem;
     margin-top: 1.5rem;
+    font-weight: bold;
+    text-align: center;
+    margin: auto;
+    display: flex;
+
 }
 
 .learn-button3 {
@@ -113,8 +135,15 @@ p {
     border: none;
     margin-bottom: 8rem;
     margin-top: 1.5rem;
+    font-weight: bold;
+    text-align: center;
+    margin: auto;
+    display: flex;
 }
-
+.text1 {
+    text-align: center;
+    font-size: 0.75;
+}
 .text2 {
     text-align: center;
     font-size: 0.75;
@@ -129,9 +158,22 @@ p {
     text-align: center;
     font-size: 0.75;
     color: white;
+    margin-bottom: 1rem;
 }
 
 .fa-search{
   color: white;
   cursor: pointer;
+}
+
+h1 {
+    text-align: center;
+}
+
+.fa-arrow-alt-up {
+    color: red;
+}
+
+.welcome {
+    padding-top: 2rem;
 }
