@@ -7,6 +7,17 @@
     display: block;
     margin-left: auto;
     margin-right: auto;
+    margin-top: 2rem;
+}
+
+.christianimg {
+    width: 90%;
+    border-radius: 10%;
+    height: 17rem;
+    object-fit: cover;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .photographyimg {
@@ -140,6 +151,21 @@ p {
     margin: auto;
     display: flex;
 }
+
+.learn-buttonfirst {
+    color: #000B7C;
+    font-family: 'Urbanist', sans-serif;
+    font-size: 1.5rem;
+    border-radius: 25%;
+    border: none;
+    margin-bottom: 8rem;
+    margin-top: 1.5rem;
+    font-weight: bold;
+    text-align: center;
+    margin: auto;
+    display: flex;
+}
+
 .text1 {
     text-align: center;
     font-size: 0.75;
@@ -164,14 +190,14 @@ p {
 .fa-search{
   color: white;
   cursor: pointer;
-}
+float: right;}
 
 h1 {
     text-align: center;
 }
 
 .welcome {
-    padding-top: 2rem;
+    padding-top: 1rem;
 }
 
 .fa-arrow-up {
@@ -179,4 +205,12 @@ h1 {
     float: left;
     margin-top: 2rem;
     margin-left: 1.25rem;
+}
+
+.firstimg {
+    padding-top: 2rem;
+}
+
+.buttonfirst {
+    text-decoration: none;
 }
