@@ -190,7 +190,9 @@ p {
 .fa-search{
   color: white;
   cursor: pointer;
-float: right;}
+  padding-right: 1rem;
+float: right;
+}
 
 h1 {
     text-align: center;
@@ -213,4 +215,120 @@ h1 {
 
 .buttonfirst {
     text-decoration: none;
+}
+
+
+
+
+/*NAVIGATION****************************/
+
+/*Navigation menu styling*/
+.navigation {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    background-image:linear-gradient(to right, #3A00FF, #B400FF);
+    overflow: hidden;
+}
+
+.menu a{
+    display: block;
+    padding: 30px;
+    -webkit-text-stroke-color: white;
+    -webkit-text-stroke-width: 1px;    
+    font-family: 'Urbanist', sans-serif;
+    text-decoration: none;
+    font-size: 40px;
+    font-family: 'Urbanist', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 2.75rem;
+}
+
+.menu a:hover{
+    color: rgb(255, 255, 255);
+}
+
+.navigation {
+    max-height: 0;
+    transition: max-height .5s ease-out;
+}
+
+
+
+/***************MENU ICON**************************/
+
+.hamb{
+    cursor: pointer;
+    float: left;
+    padding: 40px 20px;
+}
+
+/*************STYLE LABEL FOR NAVIGATION***********/
+
+.hamb-line {
+    background:#ffffff;
+    display: block;
+    height: 2px;
+    position: relative;
+    width: 24px;
+}
+
+/*******STYLE SPAN CLASS*****/
+
+.hamb-line::before,
+.hamb-line::after {
+    background:#ffffff;
+    content: '';
+    display: block;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    transition: all .2s ease-out;   
+}
+
+.hamb-line::before {
+    top: 5px;
+}
+
+.hamb-line::after {
+    top: -5px;
+}
+
+
+
+/*removes intitial display from before, which was a checkbox*/
+.side-menu {
+    display: none;
+}
+
+/*Toggle menu navigation icon*/
+.side-menu:checked ~ nav {
+    max-height: 100%;
+}
+
+.side-menu:checked ~ .hamb .hamb-line {
+    background: transparent;
+}
+
+.side-menu:checked ~ .hamb .hamb-line::before {
+    transform: rotate(-45deg);
+    top: 0;
+}
+
+.side-menu:checked ~ .hamb .hamb-line::after {
+    transform: rotate(45deg);
+    top: 0;
+}
+
+ul {
+list-style-type: none;
+}
+
+.navigation {
+    font-family: 'Urbanist', sans-serif;
+}
+
+.menu {
+    text-align: center;
 }
