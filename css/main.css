@@ -430,7 +430,7 @@ list-style-type: none;
 
 .contactusheader {
     padding-top: 6rem;
-    padding-bottom: 6rem;
+    padding-bottom: 4rem;
     font-size: 3.5rem;
 }
 
@@ -440,7 +440,7 @@ button[type="submit"] {
     color: #000B7C;
     font-family: 'Urbanist', sans-serif;
     font-size: 1.5rem;
-    border-radius: 1.5rem;
+    border-radius: 1rem;
     border: none;
     margin-bottom: 8rem;
     margin-top: 1.5rem;
@@ -459,4 +459,63 @@ button[type="submit"]:hover {
     color: white;
     -webkit-text-stroke-color: white;
     border: 1px solid white;
+}
+
+h3 {
+    color: white;
+    font-family: 'Urbanist', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+.social1 {
+    padding-top: 1rem;
+    padding-bottom: 0.75rem;
+}
+
+.social2 {
+    padding-bottom: 0.75rem;
+}
+
+.social3 {
+    padding-bottom: 0.75rem;
+
+}
+
+
+form {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 2rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+label {
+    display: block;
+    font-family: 'Urbanist', sans-serif;
+    margin-bottom: 0.75rem;
+    color: rgb(255, 255, 255);
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding-left: 1rem;
+    padding-top: 1rem;
+}
+
+input [type="text"], input[type="email"], textarea {
+    padding: 0.75rem;
+    border-radius: 2rem;
+    border: none;
+    margin-bottom: 1rem;
+    width: 100%;
+    max-width: 650px;
+    font-family: 'Urbanist', sans-serif;
+    font-weight: bold;
+    font-size: 1.25rem;
+}
+
+textarea {
+    height: 300px;
 }
