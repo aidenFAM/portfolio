@@ -1,6 +1,6 @@
 .videoimg {
     width: 90%;
-    border-radius: 10%;
+    border-radius: 2rem;
     height: 15rem;
     object-fit: cover;
     margin-bottom: 1.5rem;
@@ -12,7 +12,7 @@
 
 .christianimg {
     width: 90%;
-    border-radius: 10%;
+    border-radius: 2rem;
     height: 17rem;
     object-fit: cover;
     display: block;
@@ -22,7 +22,7 @@
 
 .photographyimg {
     width: 90%;
-    border-radius: 10%;
+    border-radius: 2rem;
     height: 15rem;
     object-fit: cover;
     display: block;
@@ -33,7 +33,7 @@
 
 .animationimg {
     width: 90%;
-    border-radius: 10%;
+    border-radius: 2rem;
     height: 15rem;
     object-fit: cover;
     margin-bottom: 1.5rem;
@@ -115,35 +115,53 @@ p {
     color: #000B7C;
     font-family: 'Urbanist', sans-serif;
     font-size: 1.5rem;
-    border-radius: 30%;
+    border-radius: 1rem;
     border: none;
-    margin-bottom: 2.5rem;
+    margin-bottom: 8rem;
+    margin-top: 1.5rem;
     font-weight: bold;
     text-align: center;
     margin: auto;
     display: flex;
+    padding-left: .5rem;
+    padding-right: .5rem;
+}
+
+.learn-button1:hover {
+    background-color: #000B7C;
+    color: white;
+    -webkit-text-stroke-color: white;
+    border: 1px solid white;
 }
 
 .learn-button2 {
     color: #000B7C;
     font-family: 'Urbanist', sans-serif;
     font-size: 1.5rem;
-    border-radius: 25%;
+    border-radius: 1rem;
     border: none;
-    margin-bottom: 2.5rem;
+    margin-bottom: 8rem;
     margin-top: 1.5rem;
     font-weight: bold;
     text-align: center;
     margin: auto;
     display: flex;
+    padding-left: .5rem;
+    padding-right: .5rem;
+}
 
+.learn-button2:hover {
+    background-color: #000B7C;
+    color: white;
+    -webkit-text-stroke-color: white;
+    border: 1px solid white;
 }
 
 .learn-button3 {
     color: #000B7C;
     font-family: 'Urbanist', sans-serif;
     font-size: 1.5rem;
-    border-radius: 25%;
+    border-radius: 1rem;
     border: none;
     margin-bottom: 8rem;
     margin-top: 1.5rem;
@@ -151,13 +169,22 @@ p {
     text-align: center;
     margin: auto;
     display: flex;
+    padding-left: .5rem;
+    padding-right: .5rem;
+}
+
+.learn-button3:hover {
+    background-color: #000B7C;
+    color: white;
+    -webkit-text-stroke-color: white;
+    border: 1px solid white;
 }
 
 .learn-buttonfirst {
     color: #000B7C;
     font-family: 'Urbanist', sans-serif;
     font-size: 1.5rem;
-    border-radius: 25%;
+    border-radius: 1rem;
     border: none;
     margin-bottom: 8rem;
     margin-top: 1.5rem;
@@ -165,6 +192,15 @@ p {
     text-align: center;
     margin: auto;
     display: flex;
+    padding-left: .5rem;
+    padding-right: .5rem;
+}
+
+.learn-buttonfirst:hover {
+    background-color: #000B7C;
+    color: white;
+    -webkit-text-stroke-color: white;
+    border: 1px solid white;
 }
 
 .text1 {
@@ -374,7 +410,7 @@ list-style-type: none;
 
 .carimg {
     width: 90%;
-    border-radius: 10%;
+    border-radius: 2rem;
     height: 15rem;
     object-fit: cover;
     margin-bottom: 1.5rem;
@@ -390,4 +426,37 @@ list-style-type: none;
     font-size: 1.25rem;
     padding: 0.75rem;
     padding-bottom: 6rem;
+}
+
+.contactusheader {
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+    font-size: 3.5rem;
+}
+
+
+button[type="submit"] {
+    background-color: white;
+    color: #000B7C;
+    font-family: 'Urbanist', sans-serif;
+    font-size: 1.5rem;
+    border-radius: 1.5rem;
+    border: none;
+    margin-bottom: 8rem;
+    margin-top: 1.5rem;
+    font-weight: bold;
+    text-align: center;
+    margin: auto;
+    display: flex;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    float: right;
+    margin-right: 1.5rem;
+}
+
+button[type="submit"]:hover {
+    background-color: #000B7C;
+    color: white;
+    -webkit-text-stroke-color: white;
+    border: 1px solid white;
 }
