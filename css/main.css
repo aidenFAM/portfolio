@@ -1,3 +1,5 @@
+
+/*change the size and spacing and padding for the video image in the homepage*/
 .videoimg {
     width: 90%;
     border-radius: 2rem;
@@ -10,6 +12,8 @@
     margin-top: 2rem;
 }
 
+
+/*changes the size, spacing, padding for the main header image of Christian in the homepage*/
 .christianimg {
     width: 90%;
     border-radius: 2rem;
@@ -21,6 +25,7 @@
     margin-top: 7rem;
 }
 
+/*changes the size, spacing, padding for the photography image in the homepage*/
 .photographyimg {
     width: 90%;
     border-radius: 2rem;
@@ -32,6 +37,7 @@
     margin-top: 2rem;
 }
 
+/*changes the size, spacing, padding for the animation image in the homepage*/
 .animationimg {
     width: 90%;
     border-radius: 2rem;
@@ -44,22 +50,28 @@
     margin-top: 2rem;
 }
 
+
+/*make the body of all the pages linear gradient*/
 .body {
     background: linear-gradient(#000B7C, #60147D);
 }
 
+/*changes the colour of the welcome text on the homepage*/
 .text1 {
     color: white;
 }
 
+/*changes the colour of the video text on the homepage*/
 .text2 {
     color: white;
 }
 
+/*changes the colour of the photography text on the homepage*/
 .text3 {
     color: white;
 }
 
+/*changes all heading 1 to a different font, colour, weight, size*/
 h1 {
     color: white;
     font-family: 'Urbanist', sans-serif;
@@ -68,10 +80,13 @@ h1 {
     font-size: 2.75rem;
 }
 
+/*changes all heading 2 colour to white*/
 h2 {
     color: white;
 }
 
+
+/*changes the width and spacing, alignment of the Aiden Creates logo in the footer*/
 .logofooter {
     width: 15%;
     display: block;
@@ -79,12 +94,15 @@ h2 {
     margin-right: auto;
 }
 
+/*changes all p text to a different font, size, and weight*/
 p {
     font-family: 'Urbanist', sans-serif;
     font-style: normal;
     font-weight: 500;
 }
 
+
+/*changes the size, spacing, and alignment of Aiden Creates logo in top header*/
 .ACheaderlogo {
     width: 25%;
     display: block;
@@ -92,11 +110,13 @@ p {
     margin-right: auto;
 }
 
+/*makes the navbar a different gradient colour, and gives a bottom border to white*/
 .navbar {
     background-image: linear-gradient(to right, #3A00FF, #B400FF);
     border-bottom: 6px solid white;
 }
 
+/*makes the entire footer to a different gradient, padding, spacing, and border colour*/
 .footer {
     background-image: linear-gradient(to right, #3A00FF, #B400FF);
     border-top: 6px solid white;
@@ -106,12 +126,14 @@ p {
 
 }
 
+/*makes the aidenfamili copyright in the footer a different font size, and spacing*/
 .copyrighttext{
     font-size: 15px;
     margin-top: 0.5rem;
     padding-right: 2rem;
 }
 
+/*makes the learn more button in the video div on the homepage to a different colour, font, size, spacing, border style, margin, padding*/
 .learn-button1 {
     color: #000B7C;
     font-family: 'Urbanist', sans-serif;
@@ -128,6 +150,7 @@ p {
     padding-right: .5rem;
 }
 
+/*adds hover effect on the learn more video button so a different color appears in the border*/
 .learn-button1:hover {
     background-color: #000B7C;
     color: white;
@@ -135,6 +158,7 @@ p {
     border: 1px solid white;
 }
 
+/*makes the learn more button in the photography div on the homepage to a different colour, font, size, spacing, border style, margin, padding*/
 .learn-button2 {
     color: #000B7C;
     font-family: 'Urbanist', sans-serif;
@@ -151,6 +175,7 @@ p {
     padding-right: .5rem;
 }
 
+/*adds hover effect on the learn more photography button so a different color appears in the border*/
 .learn-button2:hover {
     background-color: #000B7C;
     color: white;
@@ -158,6 +183,7 @@ p {
     border: 1px solid white;
 }
 
+/*makes the learn more button in the animation div on the homepage to a different colour, font, size, spacing, border style, margin, padding*/
 .learn-button3 {
     color: #000B7C;
     font-family: 'Urbanist', sans-serif;
@@ -174,6 +200,7 @@ p {
     padding-right: .5rem;
 }
 
+/*adds hover effect on the learn more animation button so a different color appears in the border*/
 .learn-button3:hover {
     background-color: #000B7C;
     color: white;
@@ -181,6 +208,7 @@ p {
     border: 1px solid white;
 }
 
+/*makes the learn more button in the welcome div on the homepage to a different colour, font, size, spacing, border style, margin, padding*/
 .learn-buttonfirst {
     color: #000B7C;
     font-family: 'Urbanist', sans-serif;
@@ -197,6 +225,7 @@ p {
     padding-right: .5rem;
 }
 
+/*adds hover effect on the learn more welcome button so a different color appears in the border*/
 .learn-buttonfirst:hover {
     background-color: #000B7C;
     color: white;
@@ -204,20 +233,25 @@ p {
     border: 1px solid white;
 }
 
+/* aligns and increases the size of the welcome text in the homepage*/
 .text1 {
     text-align: center;
     font-size: 0.75;
 }
+
+/* aligns and increases the size of the video text in the homepage*/
 .text2 {
     text-align: center;
     font-size: 0.75;
 }
 
+/* aligns and increases the size of the photography text in the homepage*/
 .text3 {
     text-align: center;
     font-size: 0.75;
 }
 
+/* aligns and increases the size of the animation text in the homepage*/
 .text4 {
     text-align: center;
     font-size: 0.75;
@@ -225,6 +259,7 @@ p {
     margin-bottom: 1rem;
 }
 
+/*adds white colour, makes a pointer cursor effect, with padding and spacing for the search magnifying glass icon*/
 .fa-search{
   color: white;
   cursor: pointer;
@@ -232,14 +267,17 @@ p {
 float: right;
 }
 
+/*centers all h1*/
 h1 {
     text-align: center;
 }
 
+/*gives padding to welcome header*/
 .welcome {
     padding-top: 1rem;
 }
 
+/*changes the arrow icon in the footer with a white colour, float, and some margin and spacing*/
 .fa-arrow-up {
     color: white;
     float: left;
@@ -247,10 +285,12 @@ h1 {
     margin-left: 1.25rem;
 }
 
+/*adds padding to the christian image in the homepage*/
 .firstimg {
     padding-top: 2rem;
 }
 
+/*removes all underline text decoration for the buttons*/
 .buttonfirst {
     text-decoration: none;
 }
@@ -269,6 +309,7 @@ h1 {
     overflow: hidden;
 }
 
+/*changes the colour, spacing, display, font, size, weight of the menu in the navigation when it's active*/
 .menu a{
     display: block;
     padding: 30px;
@@ -283,10 +324,12 @@ h1 {
     font-size: 2.75rem;
 }
 
+/*changes it so when you hover on the nav links, they fill to white*/
 .menu a:hover{
     color: rgb(255, 255, 255);
 }
 
+/*sets the entire nav with a max height, and a transition effect*/
 .navigation {
     max-height: 0;
     transition: max-height .5s ease-out;
@@ -296,6 +339,7 @@ h1 {
 
 /***************MENU ICON**************************/
 
+/*displays the hamburger icon so it floats left, has padding, and makes a pointer cursor effect*/
 .hamb{
     cursor: pointer;
     float: left;
@@ -304,6 +348,7 @@ h1 {
 
 /*************STYLE LABEL FOR NAVIGATION***********/
 
+/*makes the lines of the hamburger icon white, adds height, spacing, and width*/
 .hamb-line {
     background:#ffffff;
     display: block;
@@ -325,10 +370,12 @@ h1 {
     transition: all .2s ease-out;   
 }
 
+/*makes the top 5px of the hamburger lines before you click on it*/
 .hamb-line::before {
     top: 5px;
 }
 
+/*removes 5px from the top of the hamburger lines after you click on it*/
 .hamb-line::after {
     top: -5px;
 }
@@ -345,6 +392,7 @@ h1 {
     max-height: 100%;
 }
 
+/*removes the background of the menu on the side and hamburger lines so it is transparent*/
 .side-menu:checked ~ .hamb .hamb-line {
     background: transparent;
 }
@@ -359,14 +407,17 @@ h1 {
     top: 0;
 }
 
+/*removes bullet points from the list items in the navigation*/
 ul {
 list-style-type: none;
 }
 
+/*changes the font on the navigation list items*/
 .navigation {
     font-family: 'Urbanist', sans-serif;
 }
 
+/*aligns the text of the navigation list items so the centre*/
 .menu {
     text-align: center;
 }
@@ -378,13 +429,14 @@ list-style-type: none;
 
 
 
-
+/*adds padding, and size to the about header in the about page*/
 .about {
     padding-top: 10rem;
     padding-bottom: 6rem;
     font-size: 4rem;
 }
 
+/*makes Aiden profile picture a circle form with border radius, changes size, adds padding, height, and margin*/
 .aidenpfp {
     width: 90%;
     border-radius: 100%;
@@ -398,6 +450,7 @@ list-style-type: none;
 
 }
 
+/*makes the first paragraph of the about page white, centers the text, increases font size and adds some padding*/
 .abouttext1 {
     color: white;
     text-align: center;
@@ -405,11 +458,13 @@ list-style-type: none;
     padding: 0.75rem;
 }
 
+/*increases size and padding of Aiden header in about page*/
 .aidenheading {
     font-size: 3rem;
     padding: 2rem;
 }
 
+/*makes the second paragraph in the about page whtie, centre, and increases size and padding*/
 .aidenabouttext {
     color: white;
     text-align: center;
@@ -417,6 +472,7 @@ list-style-type: none;
     padding: 0.75rem;
 }
 
+/*makes the car image smaller, taller, adds margin and spacing, rounded borders*/
 .carimg {
     width: 90%;
     border-radius: 2rem;
@@ -429,6 +485,7 @@ list-style-type: none;
     margin-top: 6rem;
 }
 
+/*makes the photography paragraph in the about page white, centre, and increases size and padding*/
 .photographyabouttext {
     color: white;
     text-align: center;
@@ -437,13 +494,14 @@ list-style-type: none;
     padding-bottom: 6rem;
 }
 
+/*increases font size and padding for contact us header in contact page*/
 .contactusheader {
     padding-top: 10rem;
     padding-bottom: 4rem;
     font-size: 3.5rem;
 }
 
-
+/*makes the submit button white, blue text, different font, no border, alignment, spacing, float, margin, padding to decorate button in contat page*/
 button[type="submit"] {
     background-color: white;
     color: #000B7C;
@@ -463,6 +521,7 @@ button[type="submit"] {
     margin-right: 1.5rem;
 }
 
+/*when you hover over submit button, the background colour changes, adds stroke colour, and colour of text*/
 button[type="submit"]:hover {
     background-color: #000B7C;
     color: white;
@@ -470,6 +529,7 @@ button[type="submit"]:hover {
     border: 1px solid white;
 }
 
+/*makes all h3 in html pages white, different font, weight, size, and alignment*/
 h3 {
     color: white;
     font-family: 'Urbanist', sans-serif;
@@ -479,21 +539,24 @@ h3 {
     text-align: center;
 }
 
+/*adds padding to first social media text in contact page*/
 .social1 {
     padding-top: 1rem;
     padding-bottom: 0.75rem;
 }
 
+/*adds padding to second social media text in contact page*/
 .social2 {
     padding-bottom: 0.75rem;
 }
 
+/*adds padding to third social media text in contact page*/
 .social3 {
     padding-bottom: 0.75rem;
 
 }
 
-
+/*centres the forms in the contact form, adds padding, and flex in contact page*/
 form {
     display: flex;
     flex-direction: column;
@@ -502,6 +565,7 @@ form {
     padding-right: 1rem;
 }
 
+/*decorates the labels within the contact form so the font is different, colour, padding, size, weight, spacing and display*/
 label {
     display: block;
     font-family: 'Urbanist', sans-serif;
@@ -513,6 +577,7 @@ label {
     padding-top: 1rem;
 }
 
+/*makes all the input a different font, padding, border, width, spacing, weight, size*/
 input[type="text"], input[type="email"], textarea {
     padding: 0.75rem;
     border-radius: 2rem;
@@ -525,6 +590,7 @@ input[type="text"], input[type="email"], textarea {
     font-size: 1.25rem;
 }
 
+/*makes textbox of message input a different height*/
 textarea {
     height: 300px;
 }
@@ -532,6 +598,7 @@ textarea {
 
 /****************DESKTOP MEDIA QUERIES***************************/
 /****************MEDIA QUERY FOR NAV BAR DESKTOP*****************/
+/*makes the navigation a different max height, position, size, colour, and adds a bottom border colour in desktop mode*/
 @media (min-width: 1280px) {
     .navigation {
         max-height: 6rem;
@@ -542,44 +609,52 @@ textarea {
         color: white;
         border-bottom: 6px solid white;
     }
-
+    /*flpat all list items in menu to left*/
     .menu li {
         float: left;
     }
 
+    /*float the whole menu to the right*/
     .menu {
         float: right;
     }
 
+    /*when you hover over list items in menu, it is white*/
     .menu a:hover {
         background-color: transparent;
         color: white;
     }
 
+    /*changes it so that there is no stroke colour in active navigation list items*/
     .menu a {
         color: white;
         font-size: 2rem;
     }
 
+    /*removes hamburger icon in navigation*/
     .hamb {
         display: none;
     }
 
+    /*reduces the size of the Aiden Creates logo in the header, adds margin, and padding*/
     .ACheaderlogo {
         width: 8%;
         margin-left: 0%;
         padding-left: 1rem;
     }
 
+    /*removes white border from bottom of navigation bar*/
     .navbar {
         border-bottom: none;
     }
 
+    /*reduces the size of the Aiden Creates logo in the footer and adds margin*/
     .logofooter {
         width: 5%;
         margin-left: 35%;
     }
 
+    /*makes the welcome header to float to left, and adds padding everywhere*/
     .welcome {
         float: left;
         padding-left: 5rem;
@@ -587,6 +662,7 @@ textarea {
         padding-right: 5rem;
     }
 
+    /*makes the chrisitan image in the homepage a different size, border, height, and margin overall*/
     .christianimg {
     width: 90%;
     border-radius: 2rem;
@@ -598,6 +674,7 @@ textarea {
     margin-top: 7rem;
     }
 
+    /*makes the welcome text in the homepage float left, adds padding, removes the centering of the alignment*/
     .text1 {
         float: left;
         text-align: start;
@@ -606,6 +683,7 @@ textarea {
         padding-right: 5rem;
     }
 
+    /*makes the see more buttong float left, and adds margin everywhere*/
     .learn-buttonfirst {
         float: left;
         margin-left: 45%;
@@ -613,28 +691,66 @@ textarea {
         margin-bottom: 10rem;
     }
 
+    /*makes the video image in the homepage a different height, and adjusts it to the left, adding margin and width to it as well*/
     .videoimg {
         height: 20rem;
         float: left;
         margin-top: 5rem;
-        width: 30%;
+        width: 40%;
+        margin-left: 5rem;
+
     }
 
+    /*makes the video header in the homepage adjust to the left, adds padding*/
     .videoheader {
         float: left;
-        padding-left: 25%;
+        padding-right: 70%;
+        padding-left: 20%;
     }
 
+    /*makes the video paragraph text adjust to left, changes size, and adds padding*/
    .text2 {
     float: left;
     font-size: 1.25rem;
-    padding-left: 5rem;
+    padding-left: 3rem;
     padding-right: 50%;
    }
 
+   /*makes the video learn more button adjust to left and adds margin*/
    .learn-button1 {
+    float: left;
+    margin-left: 20%;
+   }
+
+
+   .videosection {
     float: left;
    }
 
+   /*makes the photography image in the homepage change size and adjust to the right whilst adding marin and width*/
+   .photographyimg {
+    height: 20rem;
+    float: right;
+    margin-top: 5rem;
+    width: 40%;
+    margin-left: 5rem;
+   }
+
+   /*makes the photography header in the homepage adjust to the right*/
+   .photographyheader {
+    float: right;
+   }
+
+   /*makes the photography paragraph text adjust its size, position, and padding*/
+   .text3 {
+    float: right;
+    font-size: 1.25rem;
+    padding-left: 3rem;
+    padding-left: 50%;   }
+
+    /*makes the photography learn more button adjust to the right*/
+   .learn-button2 {
+    float: right;
+   }
 }
 
