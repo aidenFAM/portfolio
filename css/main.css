@@ -1,10 +1,10 @@
 
+/*adjusts root elements of bootstrap for customization*/
 :root {
     --blue: #000B7C;
     --purple: #60147D;
     --pinkish: #B400FF;
     --white: #ffffff;
-    
 }
 
 
@@ -779,6 +779,7 @@ textarea {
     float: right;
    }
 
+   /*adjusts the animation image in the homepage so i scales down, adjusts to centre, adds margin, and height*/
    .animationimg {
     height: 20rem;
     margin-top: 10rem;
@@ -788,22 +789,26 @@ textarea {
     margin-right: auto;
    }
 
+   /*increases font size for animation paragraph and adds padding*/
    .text4 {
     font-size: 1.25rem;
     padding-right: 25%;
     padding-left: 25%;  
     }
 
+    /*adds margin to entire animation section*/
     .animationdiv {
         margin-top: 10rem;
     }
 
+    /*increases font size and adds padding to about main text in about page*/
     .abouttext1 {
         font-size: 2rem;
         padding-bottom: 10rem;
     }
 
 
+    /*makes the aiden profile picture smaller in width, float, and adds padding so it goes to left of about page*/
     .aidenpfp {
         width: 35%;
         float: left;
@@ -811,21 +816,28 @@ textarea {
     }
 
 
+    /*makes the aiden profile picture smaller in width, float, and adds padding so it goes to left of contact page*/
     .aidenpfp2  {
         width: 35%;
         float: left;
         padding-bottom: 1rem;
     }
+
+    /*makes the aiden about text in the about page start aligned, increases font size and adds padding*/
     .aidenabouttext {
         text-align: start;
         font-size: 1.5rem;
         padding-bottom: 5rem;
     }
 
+
+    /*makes the aiden heading in the contact page aligned for text start*/
     .aidenheading {
         text-align: start;
     }
 
+
+    /*makes the car image in the about page smaller, and adds margin, and makes adjusts it to the left*/
     .carimg {
         width: 45%;
         height: 25rem;
@@ -835,6 +847,7 @@ textarea {
         float: left;
     }
 
+    /*increases the font size and adds padding to photography about text*/
     .photographyabouttext {
         font-size: 1.5rem;
         text-align: start;
@@ -843,24 +856,35 @@ textarea {
     }
 
 
+
+
+    /*decreases the width and adds margin to aiden profile picture in contact page*/
     .aidenpfp2 {
         width: 28%;
         margin-left: 4rem;
     }
 
+
+    /*increases the width of the message textbox in the contact page*/
     textarea {
         max-width: 98%;
     }
 
+
+
+    /*adds padding to aiden heading in contact page to align properly*/
     .aidenheading {
         padding-left: 40%;
     }
 
+
+    /*makes all h3 start align text, and adds padding to align with aiden heading in contact page*/
     h3 {
         text-align: start;
         padding-left: 40%;
     }
 
+    /*adds bottom padding to create space between aiden socials and the footer in contact page*/
     .allsocials {
         padding-bottom: 5rem;
     }
