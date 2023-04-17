@@ -450,6 +450,19 @@ list-style-type: none;
 
 }
 
+.aidenpfp2 {
+    width: 90%;
+    border-radius: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 2rem;
+    padding-right: 2rem;
+
+}
+
 /*makes the first paragraph of the about page white, centers the text, increases font size and adds some padding*/
 .abouttext1 {
     color: white;
@@ -712,8 +725,8 @@ textarea {
    .text2 {
     float: left;
     font-size: 1.25rem;
-    padding-left: 3rem;
-    padding-right: 50%;
+    padding-left: 5rem;
+    padding-right: 60%;
    }
 
    /*makes the video learn more button adjust to left and adds margin*/
@@ -739,18 +752,110 @@ textarea {
    /*makes the photography header in the homepage adjust to the right*/
    .photographyheader {
     float: right;
+    padding-left: 80%;
    }
 
    /*makes the photography paragraph text adjust its size, position, and padding*/
    .text3 {
     float: right;
     font-size: 1.25rem;
-    padding-left: 3rem;
-    padding-left: 50%;   }
+    padding-left: 60%;  
+    }
 
     /*makes the photography learn more button adjust to the right*/
    .learn-button2 {
     float: right;
    }
-}
+
+   .animationimg {
+    height: 20rem;
+    margin-top: 10rem;
+    width: 40%;
+    margin-left: 30%;
+    display: block;
+    margin-right: auto;
+   }
+
+   .text4 {
+    font-size: 1.25rem;
+    padding-right: 25%;
+    padding-left: 25%;  
+    }
+
+    .animationdiv {
+        margin-top: 10rem;
+    }
+
+    .abouttext1 {
+        font-size: 2rem;
+        padding-bottom: 10rem;
+    }
+
+
+    .aidenpfp {
+        width: 35%;
+        float: left;
+        padding-bottom: 1rem;
+    }
+
+
+    .aidenpfp2  {
+        width: 35%;
+        float: left;
+        padding-bottom: 1rem;
+    }
+    .aidenabouttext {
+        text-align: start;
+        font-size: 1.5rem;
+        padding-bottom: 5rem;
+    }
+
+    .aidenheading {
+        text-align: start;
+    }
+
+    .carimg {
+        width: 45%;
+        height: 25rem;
+        margin-left: 2rem;
+        margin-right: 20rem;
+        margin-top: 12rem;
+        float: left;
+    }
+
+    .photographyabouttext {
+        font-size: 1.5rem;
+        text-align: start;
+        padding-top: 15rem;
+        padding-right: 2rem;
+    }
+
+
+    .aidenpfp2 {
+        width: 28%;
+        margin-left: 4rem;
+    }
+
+    textarea {
+        max-width: 98%;
+    }
+
+    .aidenheading {
+        padding-left: 40%;
+    }
+
+    h3 {
+        text-align: start;
+        padding-left: 40%;
+    }
+
+    .allsocials {
+        padding-bottom: 5rem;
+    }
+
+
+
+
+   }
+
 
