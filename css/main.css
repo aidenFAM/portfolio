@@ -166,7 +166,6 @@ p {
 .learn-button1:hover {
     background-color: var(--blue);
     color: var(--white);
-    -webkit-text-stroke-color: var(--white);
     border: 1px solid var(--white);
 }
 
@@ -191,7 +190,6 @@ p {
 .learn-button2:hover {
     background-color: var(--blue);
     color: var(--white);
-    -webkit-text-stroke-color: var(--white);
     border: 1px solid var(--white);
 }
 
@@ -216,7 +214,6 @@ p {
 .learn-button3:hover {
     background-color: var(--blue);
     color: var(--white);
-    -webkit-text-stroke-color: var(--white);
     border: 1px solid var(--white);
 }
 
@@ -241,32 +238,31 @@ p {
 .learn-buttonfirst:hover {
     background-color: var(--blue);
     color: var(--white);
-    -webkit-text-stroke-color: var(--white);
     border: 1px solid var(--white);
 }
 
 /* aligns and increases the size of the welcome text in the homepage*/
 .text1 {
     text-align: center;
-    font-size: 0.75;
+    font-size: 16px;
 }
 
 /* aligns and increases the size of the video text in the homepage*/
 .text2 {
     text-align: center;
-    font-size: 0.75;
+    font-size: 16px;
 }
 
 /* aligns and increases the size of the photography text in the homepage*/
 .text3 {
     text-align: center;
-    font-size: 0.75;
+    font-size: 16px;
 }
 
 /* aligns and increases the size of the animation text in the homepage*/
 .text4 {
     text-align: center;
-    font-size: 0.75;
+    font-size: 16px;
     color: var(--white);
     margin-bottom: 1rem;
 }
@@ -325,8 +321,7 @@ h1 {
 .menu a{
     display: block;
     padding: 30px;
-    -webkit-text-stroke-color: var(--white);
-    -webkit-text-stroke-width: 1px;    
+    color: var(--blue);
     font-family: 'Urbanist', sans-serif;
     text-decoration: none;
     font-size: 40px;
@@ -550,7 +545,6 @@ button[type="submit"] {
 button[type="submit"]:hover {
     background-color: var(--blue);
     color: var(--white);
-    -webkit-text-stroke-color: var(--white);
     border: 1px solid var(--white);
 }
 
@@ -704,7 +698,7 @@ textarea {
         float: left;
         text-align: start;
         padding-left: 5rem;
-        font-size: 1.5rem;
+        font-size: 25px;
         padding-right: 5rem;
     }
 
@@ -736,7 +730,7 @@ textarea {
     /*makes the video paragraph text adjust to left, changes size, and adds padding*/
    .text2 {
     float: left;
-    font-size: 1.25rem;
+    font-size: 25px;
     padding-left: 5rem;
     padding-right: 60%;
    }
@@ -770,7 +764,7 @@ textarea {
    /*makes the photography paragraph text adjust its size, position, and padding*/
    .text3 {
     float: right;
-    font-size: 1.25rem;
+    font-size: 25px;
     padding-left: 60%;  
     }
 
@@ -791,7 +785,7 @@ textarea {
 
    /*increases font size for animation paragraph and adds padding*/
    .text4 {
-    font-size: 1.25rem;
+    font-size: 25px;
     padding-right: 25%;
     padding-left: 25%;  
     }
